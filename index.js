@@ -1,4 +1,5 @@
 const countersEl = document.querySelectorAll(".counter");
+const refreshButton = document.querySelector(".btn");
 
 countersEl.forEach((counterEl) => {
   counterEl.innerText = "0"; //setea en cero...
@@ -19,3 +20,9 @@ countersEl.forEach((counterEl) => {
     }
   }
 });
+
+function refreshPage() {
+   location.reload();
+}
+
+refreshButton.addEventListener("click", refreshPage);

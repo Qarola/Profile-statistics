@@ -47,9 +47,29 @@ body {
     color:white;
 }
 
+.btn {
+    align-items: center;
+    border: none;
+    width: 120px;
+    height: 25px;
+    color: white;
+    background: green;
+    font-size: 15px;
+    margin-top: 250px;
+    margin-left: 8.5rem;
+    position: absolute;
+    transform: translateX(-50%);
+    border-radius: 17px;
+  
+}
+
 
 @media (max-width: 600px) {
     body {
         flex-direction: column;
+    }
+
+    .btn {
+        margin-top: 35rem;
     }
 }
