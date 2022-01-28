@@ -60,6 +60,7 @@ body {
     position: absolute;
     transform: translateX(-50%);
     border-radius: 17px;
+    cursor: pointer;
   
 }
 
